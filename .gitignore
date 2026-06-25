@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Config local (no subir config personal)
+config/config.local.yaml
+
+# Assets pesados (no versionar videos/fuentes)
+themes/*/background.mp4
+themes/*/background.h264
+assets/fonts/*.ttf
+assets/fonts/*.otf
+
+# Runtime / IPC
+/tmp/mangohud_stats.json
+
+# Layout generado por el editor GUI
+config/layout.json
+
+# Build / packaging
+*.AppImage
+*.tar.gz
+*.tar.zst
